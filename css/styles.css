@@ -12,6 +12,11 @@ font-family: 'Poppins', sans-serif;
   --default-font-family: 'Poppins', sans-serif;
 }
 
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +44,14 @@ p {
   color: var(--color-text-main);
   font-size: 16px;
   line-height: 30px;
+}
+
+li a {
+  color: var(--color-text-main);
+}
+
+.active {
+  color: var(--color-btn-main);
 }
 
 .btn {
@@ -86,6 +99,7 @@ p {
 }
 
 @media (max-width: 900px) {
+
   h1 {
     font-size: 44px;
     line-height: 1.4;
