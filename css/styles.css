@@ -143,6 +143,38 @@ li a {
   padding-left: 200px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-text-main);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--color-btn-main);
+}
+
+
 @media (max-width: 900px) {
 
   h1 {
@@ -167,5 +199,9 @@ li a {
     padding: 0;
     text-align: center;
   }
+
+  /* .logo {
+    max-width: 90px;
+  } */
 
 }
